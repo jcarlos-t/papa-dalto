@@ -30,7 +30,7 @@ class Trabajador(Persona):
     def hacer_actividad(self):
         print(f"estoy trabando {self.actividad}")
 
-dalto = Trabajador("pepe",21,"masculino", "escritor")
+dalto = Trabajador("que onda papu",21,"masculino", "escritor")
 pedro = Estudiante("pedro", 23, "masculino", "programador")
 
 dalto.presentarse()
